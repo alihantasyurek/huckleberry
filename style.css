@@ -18,15 +18,15 @@ strong {
 
 main {
   background-color: hsl(0deg, 0%, 40%);
-  padding: 48px;
+  padding: 96px 0;
 }
 
 .max-width-wrapper {
-  max-width: 500px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   background-color: hsl(0deg, 0%, 100%);
-  padding: 16px;
+  padding: 0 24px;
 }
 
 .card {
@@ -36,11 +36,12 @@ main {
 .indented-heading{
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
-  margin-left: -24px;
+  margin-left: -32px;
   padding: 32px;
   border-bottom: solid 8px hsl(45deg, 100%, 40%);
 }
 
 .intro-chunk {
-  padding: 8px;
+  padding: 96px 0;
+  max-width: 500px;
 }
